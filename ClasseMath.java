@@ -5,6 +5,6 @@ public class ClasseMath {
         double ale = Math.random();
         int num = (int) (ale*10);
         System.out.println("O numero gerado é: " + num);
-
+        
     }
 }
