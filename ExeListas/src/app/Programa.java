@@ -37,7 +37,7 @@ public class Programa {
         Funcionario func = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
 
         if (func == null) {
-            System.out.println("O id informado não existe");
+            System.out.println("Erro: O id informado não existe");
         } else {
             System.out.println("Insira o aumento em porcentagem (Apenas números): ");
             float aumento = sc.nextFloat();
